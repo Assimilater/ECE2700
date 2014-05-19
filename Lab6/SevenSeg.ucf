@@ -1,0 +1,18 @@
+NET "clk" LOC = "B8"; # Student2, Signal name = SW3
+
+NET "reset" LOC = "G12"; # Set to 0 at Right digit, Signal name = BTN0
+NET "move" LOC = "C11"; # Move left one digit, Signal name = BTN1
+NET "count" LOC = "M4"; # Increase number by 1, Signal name = BTN2
+
+NET "a" LOC = "L14"; # Segment a, Signal name = CA
+NET "b" LOC = "H12"; # Segment a, Signal name = CB
+NET "c" LOC = "N14"; # Segment a, Signal name = CC
+NET "d" LOC = "N11"; # Segment a, Signal name = CD
+NET "e" LOC = "P12"; # Segment a, Signal name = CE
+NET "f" LOC = "L13"; # Segment a, Signal name = CF
+NET "g" LOC = "M12"; # Segment a, Signal name = CG
+
+NET "n3" LOC = "F12"; # Annode 3, Signal name = AN3
+NET "n2" LOC = "J12"; # Annode 2, Signal name = AN2
+NET "n1" LOC = "M13"; # Annode 1, Signal name = AN1
+NET "n0" LOC = "K14"; # Annode 0, Signal name = AN0

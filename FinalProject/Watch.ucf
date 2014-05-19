@@ -1,0 +1,34 @@
+NET "clk"		LOC = "B8";		# The clock
+
+#Buttons
+NET "down"		LOC = "G12";	# Signal name = BTN0
+NET "up"			LOC = "C11";	# Signal name = BTN1
+NET "mode"		LOC = "M4";		# Signal name = BTN2
+NET "write"		LOC = "A7";		# Signal name = BTN2
+
+#Switches
+NET "clk_s"		LOC = "P11";	# Signal name = SW0
+
+#LEDs
+NET "r"			LOC = "M5";		# Signal name = LD0
+NET "led[0]"	LOC = "P7";		# Signal name = LD2
+NET "led[1]"	LOC = "P6";		# Signal name = LD3
+NET "led[2]"	LOC = "N5";		# Signal name = LD4
+NET "led[3]"	LOC = "N4";		# Signal name = LD5
+NET "led[4]"	LOC = "P4";		# Signal name = LD6
+NET "led[5]"	LOC = "G1";		# Signal name = LD7
+
+#7-Segment Display Number
+NET "seg[6]"	LOC = "L14";	# Signal name = CA, Segment a
+NET "seg[5]"	LOC = "H12";	# Signal name = CB, Segment b
+NET "seg[4]"	LOC = "N14";	# Signal name = CC, Segment c
+NET "seg[3]"	LOC = "N11";	# Signal name = CD, Segment d
+NET "seg[2]"	LOC = "P12";	# Signal name = CE, Segment e
+NET "seg[1]"	LOC = "L13";	# Signal name = CF, Segment f
+NET "seg[0]"	LOC = "M12";	# Signal name = CG, Segment g
+
+#7-Segment Display Annode
+NET "an[3]"		LOC = "F12";	# Signal name = AN3, Annode 3
+NET "an[2]"		LOC = "J12";	# Signal name = AN2, Annode 2
+NET "an[1]"		LOC = "M13";	# Signal name = AN1, Annode 1
+NET "an[0]"		LOC = "K14";	# Signal name = AN0, Annode 0

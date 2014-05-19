@@ -1,0 +1,7 @@
+NET "p" LOC = "p11"; # President, Signal name = SW0
+NET "t" LOC = "L3"; # Teacher, Signal name = SW1
+NET "s0" LOC = "K3"; # Student1, Signal name = SW2
+NET "s1" LOC = "B4"; # Student2, Signal name = SW3
+NET "s2" LOC = "G3"; # Student3, Signal name = SW4
+
+NET "G" LOC = "M5"; # Output, Signal name = LD0
